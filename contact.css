@@ -1,0 +1,71 @@
+body{
+  font-family: "Consolas";
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display:flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li{
+  float:left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.email{
+  float:left;
+  scale: 50%;
+  padding: 0px;
+}
+
+.github{
+  float:left;
+  scale: 50%;
+  padding: 0px;
+}
+
+.linkedin{
+  float:left;
+  scale: 50%;
+  padding: 0px;
+}
+
+.icons{
+  width: 600px;
+  border: 1px solid #333;
+  padding: 50px;
+  margin: 20px;
+  float:left;
+}
