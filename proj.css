@@ -40,8 +40,8 @@ li a {
 }
 
 li a:hover {
-  background-color: #ffffff;
-  color: black;
+  background-color: #940a0a;
+  color: white;
 }
 
 .FinanceLingo{
@@ -84,4 +84,30 @@ li a:hover {
   margin: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+}
+
+.insta:hover{
+  opacity:60%;
+}
+
+.email:hover{
+  opacity:60%;
+}
+
+.linked:hover{
+  opacity:60%;
+}
+
+.git:hover{
+  opacity:60%;
 }

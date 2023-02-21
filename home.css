@@ -55,7 +55,7 @@ li a:hover {
 
 .pfp {
   padding-top: 30px;
-  width: 250px;
+  width: 230px;
   height: 250px;
 }
 
@@ -67,4 +67,25 @@ li a:hover {
 .about-title{
   display:flex;
   justify-content: center;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+}
+
+.insta:hover{
+  opacity:60%;
+}
+
+.email:hover{
+  opacity:60%;
+}
+
+.linked:hover{
+  opacity:60%;
+}
+
+.git:hover{
+  opacity:60%;
 }
