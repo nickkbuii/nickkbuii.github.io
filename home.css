@@ -27,6 +27,8 @@ ul {
   border: 1px solid #333;
   padding: 50px;
   margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 li{
@@ -47,12 +49,22 @@ li a {
 }
 
 li a:hover {
-  background-color: #ffffff;
-  color: black;
+  background-color: #940a0a;
+  color: white;
 }
 
 .pfp {
   padding-top: 30px;
   width: 250px;
   height: 250px;
+}
+
+.pfp-block {
+  display: flex;
+  justify-content: center;
+}
+
+.about-title{
+  display:flex;
+  justify-content: center;
 }

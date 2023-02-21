@@ -43,3 +43,45 @@ li a:hover {
   background-color: #ffffff;
   color: black;
 }
+
+.FinanceLingo{
+  width: 600px;
+  border: 1px solid #333;
+  padding: 50px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.finance-lingo{
+  padding-top: 30px;
+  width: 250px;
+  height: 250px;
+}
+
+.Apnostics{
+  width: 600px;
+  border: 1px solid #333;
+  padding: 50px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Emoticam{
+  width: 600px;
+  border: 1px solid #333;
+  padding: 50px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ASLens{
+  width: 600px;
+  border: 1px solid #333;
+  padding: 50px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
