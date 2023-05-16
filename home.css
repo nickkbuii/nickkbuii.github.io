@@ -1,5 +1,6 @@
 body{
   font-family: "Consolas";
+  background-color: #ededed;
 }
 
 h3{
@@ -7,24 +8,9 @@ h3{
   justify-content: center;
 }
 
-.name-text{
+h1{
   display: flex;
   justify-content: center;
-}
-
-.typed {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 0;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-  animation: typing 4s forwards;
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
 }
 
 ul {
@@ -66,6 +52,11 @@ li a {
 li a:hover {
   background-color: #940a0a;
   color: white;
+}
+
+.current{
+  background-color: #940a0a;
+  color:white;
 }
 
 .pfp {

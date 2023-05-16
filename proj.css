@@ -1,5 +1,6 @@
 body{
   font-family: "Consolas";
+  background-color: #ededed
 }
 
 h1{
@@ -40,6 +41,11 @@ li a {
 }
 
 li a:hover {
+  background-color: #940a0a;
+  color: white;
+}
+
+.current{
   background-color: #940a0a;
   color: white;
 }
