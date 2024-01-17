@@ -117,3 +117,35 @@ li a:hover {
 .git:hover{
   opacity:60%;
 }
+
+.fl_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 309px;
+  height: 454.5px;
+}
+
+.apnostics_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 425px;
+  height: 318.75px;
+}
+
+.emoticam_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 386px;
+  height: 518px;
+}
+
+.aslens_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 425px;
+  height: 318.75px;
+}
