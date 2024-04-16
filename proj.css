@@ -65,6 +65,24 @@ li a:hover {
   height: 250px;
 }
 
+.Whisk {
+  width: 600px;
+  border: 1px solid #333;
+  padding: 50px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.whisk_img {
+  padding-top: 30px;
+  width: 401px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .Apnostics{
   width: 600px;
   border: 1px solid #333;
