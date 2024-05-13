@@ -1,57 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0;">
-  <title>nickomode</title>
-  <link href="home.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nickomode</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div class="name">
-    <div class="name-text">
-      <h2 class="typed">Nick Quach Bui</h2>
+    <div id="terminal">
+        <div id="prompt" class="prompt">PS C:\Users\nickomode\nick-bui-personal-website></div>
+        <div class="message"></div>
     </div>
-  </div>
-  <div class="taskbar">
-    <ul>
-      <li class="current"><a>About</a></li>
-      <li><a href="proj.html">Projects</a></li>
-    </ul>
-  </div>
-  <div class="bg-box">
-    <div class="pfp-block">
-      <img src="pfp.png" class="pfp">
+    <div class="tabs">
+        <button id="aboutTab">cd about-nick </button>
+        <button id="projectsTab">cd nick-projects</button>
     </div>
-    <div class="about-me">
-      <p>
-        <b>Who am I?</b>
-        Hi! I'm Nick (also known online as "nickomode"), a Viet-American engineer from San Jose, CA.
-        <br><br>
-        <b>What are you up to?</b>
-        Currently, I'm studying electrical engineering and computer science at UC
-        Berkeley while taking a few entrepreneurship and business courses here and there.
-        <br><br>
-        <b>How do I spend my free time?</b>
-        I compete in combat robotics and participate in hackathons (check out <a href="https://devpost.com/nickomode">my Devpost</a>!).
-        <br></br>
-        <b>Outside of technology?</b>
-        I enjoy hiking, traveling, expanding my lego collection, and going on spontaneous quests with friends.
-        <br></br>
-        <b>How can I contact you?</b>
-        I enjoy meeting new people and discussing exciting opportunities so please feel free to contact me below!
-      </p>
+
+    <div class="window" id="fakeWindow">
+        <div class="window-titlebar" id="windowTitle">Title</div>
+        <div class="window-content">
+            <div class="content" id="aboutContent">
+                <img src="assets/pfp.png" class="pfp">
+                <p>
+                    <b>Who am I?</b> Hi! I'm Nick (also known online as "nickomode"), a Viet-American engineer from San
+                    Jose, CA. <br><br>
+                    <b>What are you up to?</b> Currently, I'm studying electrical engineering and computer science at UC
+                    Berkeley while taking a few entrepreneurship and business courses here and there. <br><br>
+                    <b>How do I spend my free time?</b> I compete in combat robotics and participate in hackathons
+                    (check
+                    out <a href="https://devpost.com/nickomode">my Devpost</a>!). <br></br>
+                    <b>Outside of technology?</b> I enjoy hiking, traveling, expanding my lego collection, and going on
+                    spontaneous quests with friends. <br></br>
+                    <b>How can I contact you?</b> I enjoy meeting new people and discussing exciting opportunities so
+                    please
+                    feel free to contact me below!
+                </p>
+            </div>
+
+            <div class="content" id="projectsContent">
+                Work in progress...
+            </div>
+        </div>
+        <button class="window-close-btn" id="windowCloseButton">X</button>
     </div>
-  </div>
-  <div class="contact">
-    <div class="contact-icons">
-      <a class="email" href="mailto:nicholasqbui@gmail.com"><img src="email.png" width=100px height=100px></a>
-      <a class="git" href="https://github.com/nickkbuii"><img src="git.png" width=100px height=100px></a>
-      <a class="linked" href="https://linkedin.com/in/nickkbuii"><img src="linkedin.png" width=100px height=100px></a>
-      <a class="insta" href="https://www.instagram.com/nickkbuii"><img src="insta.png" width=100px height=100px></a>
-    </div>
-  </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
